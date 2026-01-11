@@ -1,0 +1,47 @@
+# Build
+build/
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.lib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Documentation
+docs/html/
+docs/latex/
+
+# Logs
+*.log
+server.log
+
+# Jenkins
+.jenkins/
+workspace/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup
+*~
+*.orig
+*.backup
+
+# Binaries
+bin/
+obj/
+out/
